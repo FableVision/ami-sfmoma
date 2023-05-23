@@ -1,0 +1,22 @@
+{
+  "name": "ami-sfmoma-dev",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build:post-release": "vite build --base=/ami/post-release",
+    "build:dev": "vite build --base=/ami",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "pinia": "^2.0.22",
+    "vue": "^3.2.38",
+    "vue-router": "^4.1.5",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "vite": "^3.0.9"
+  }
+}

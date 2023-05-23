@@ -1,0 +1,269 @@
+{
+    "oneoffs": [
+        {
+            "id": "welcome_text",
+            "text": "Welcome to AIEEE (Alien Interplanetary Expedition Expert Explorers) Tech support and HR"
+        },
+        {
+            "id": "continue_text_1",
+            "text": "Continue. I appreciate Tech Support. All hail Zorg."
+        },
+        {
+            "id": "continue_text_2",
+            "text": "Continue. I appreciate Tech Support. I'm ready to reset the router"
+        },
+        {
+            "id": "red_team_id",
+            "text": "red"
+        },
+        {
+            "id": "blue_team_id",
+            "text": "blue"
+        },
+        {
+            "id": "green_team_id",
+            "text": "green"
+        },
+        {
+            "id": "intro_text_red_1",
+            "text": "Hello <<Team RED>> AIEEE researcher and valued interplanetary employee. Thank you for contacting AIEEE Tech Support and HR. We're sorry that you're experiencing difficulties <<returning home>>. We assure you that AIEEE Tech Support is working feverishly to address this very important issue. "
+        },
+        {
+            "id": "intro_text_red_2",
+            "text": "<<Team RED>> employee. We appreciate your very important <<research>> about <<Earth humans>>. We're sorry you're experiencing difficulties <<returning home>>. Please follow these simple steps to reboot the router by inputting data from the earth location <<San Francisco Museum of Modern Art>>. Should you experience a lack of information, please seek out members of other research teams at data transfer stations every 15 minutes. We're excited to offer you this opportunity for extended data input! "
+        },
+        {
+            "id": "intro_text_blue_1",
+            "text": "Hello <<Team BLUE>> AIEEE researcher and valued interplanetary employee. Thank you for contacting AIEEE Tech Support and HR. We're sorry that you're experiencing difficulties <<returning home>>. We assure you that AIEEE Tech Support is working feverishly to address this very important issue. "
+        },
+        {
+            "id": "intro_text_blue_2",
+            "text": "<<Team RED>> employee. We appreciate your very important <<research>> about <<Earth humans>>. We're sorry you're experiencing difficulties <<returning home>>. Please follow these simple steps to reboot the router by inputting data from the earth location <<San Francisco Museum of Modern Art>>. Should you experience a lack of information, please seek out members of other research teams at data transfer stations every 15 minutes. We're excited to offer you this opportunity for extended data input! "
+        },
+        {
+            "id": "intro_text_green_1",
+            "text": "Hello <<Team GREEN>> AIEEE researcher and valued interplanetary employee. Thank you for contacting AIEEE Tech Support and HR. We're sorry that you're experiencing difficulties <<returning home>>. We assure you that AIEEE Tech Support is working feverishly to address this very important issue. "
+        },
+        {
+            "id": "intro_text_green_2",
+            "text": "<<Team GREEN>> employee. We appreciate your very important <<research>> about <<Earth humans>>. We're sorry you're experiencing difficulties <<returning home>>. Please follow these simple steps to reboot the router by inputting data from the earth location <<San Francisco Museum of Modern Art>>. Should you experience a lack of information, please seek out members of other research teams at data transfer stations every 15 minutes. We're excited to offer you this opportunity for extended data input! "
+        },
+        {
+            "id": "end_text",
+            "text": "GOOD JOB AIEEE researcher!! You have reset the router!! We are satisfied with your detailed assessment of <<human art>> and thrilled to offer you the opportunity for more paperwork before the return to your glorious administrative offices. Please proceed to the <<Central Processing Center>> and talk to our HR representatives immediately. All hail Zorg.  "
+        },
+        {
+            "id": "end_link",
+            "text": "https://google.com"
+        }
+    ],
+    "questions": [
+        {
+            "id": "question 1",
+            "redtext": "Determine which object on Floor 1 is the most. ",
+            "bluetext": "Determine which << insufficient data>>",
+            "greentext": "Determine which <<insufficient data>>",
+            "correctresponse": "Excellent. We will log your response detailing <<human art>> in our \"most\" files. ",
+            "icon": "Prism",
+            "location": "Floor 1",
+            "task": "Fix Spindler"
+        },
+        {
+            "id": "question 2",
+            "redtext": "Systems indicate artwork (X) <<insufficient data>> on floor 2 is witholding information. Please determine hidden information and enter here. ",
+            "bluetext": "Systems indicate artwork (X)(X=Guardians of the Secret) on floor 2 is witholding information. Please determine hidden information and enter here. ",
+            "greentext": "Systems indicate artwork (X) <<insufficient data>> on floor 2 is witholding information. Please determine hidden information and enter here. ",
+            "correctresponse": "Thank you. Secrets exposed. All hail Zorg. ",
+            "icon": "Prism",
+            "location": "Floor 2",
+            "task": "Expose Secrets"
+        },
+        {
+            "id": "question 3",
+            "redtext": "Find gallery with <<inufficient data.>> Who is in charge of this gallery? ",
+            "bluetext": "Find gallery with <<inufficient data.>> Who is in charge of this gallery? ",
+            "greentext": "Find gallery with even number of artworks. Who is in charge of this gallery? ",
+            "correctresponse": "Our faultless AIEEE anthropoligical research has determined that each gallery in a human temple of art has an assigned keeper. Humans appreciate symmetry. Except for when they appreciate assymetry. They also appreciate optometry. We have much to learn about humans. ",
+            "icon": "Prism",
+            "location": "Floor 3",
+            "task": "Compute Artwork"
+        },
+        {
+            "id": "question 4",
+            "redtext": "Please order all artworks in any gallery from 1-3",
+            "bluetext": "Please order all artworks in any gallery from 1-3",
+            "greentext": "Please order all artworks in any gallery from 1-3",
+            "correctresponse": "Excellent! Our faultless AIEEE anthropoligical  research has determined that humans appreciate order. Except for when they appreciate disorder. They also appreciate what they call \"online ordering\". We have much to learn about humans. ",
+            "icon": "Cylinder",
+            "location": "Floor 1",
+            "task": "Establish Order"
+        },
+        {
+            "id": "question 5",
+            "redtext": "Remember that time? Of course you do! Find an artwork that evokes that time. (You know: THAT time.) Describe that time that the thing happened, which artwork evokes the collective memory and how. ",
+            "bluetext": "Remember that time? Of course you do! Find an artwork that evokes that time. (You know: THAT time.) Describe that time that the thing happened, which artwork evokes the collective memory and how. ",
+            "greentext": "Remember that time? Of course you do! Find an artwork that evokes that time. (You know: THAT time.) Describe that time that the thing happened, which artwork evokes the collective memory and how. ",
+            "correctresponse": "Ohhh THAT time. This was not what HR had in mind but the data is valid. Thank you for updating our AIEEE collective memory database. ",
+            "icon": "Cylinder",
+            "location": "Floor 2",
+            "task": "Establish anemoia"
+        },
+        {
+            "id": "question 6",
+            "redtext": "All hail. It seems that humans have discovered the holy transmogrification of the butterfly. Find their butterfly shrine in the galleries and pay your respects to ensure safe travels across the galaxy. Enter your prayer to the butterfly here. If you so desire, take an image and share it on human social media #SFMOMAieee to spread the sacred gospel of the butterfly. ",
+            "bluetext": "All hail. It seems that humans have discovered the holy transmogrification of the butterfly. Find their butterfly shrine in the galleries and pay your respects to ensure safe travels across the galaxy. Enter your prayer to the butterfly here. If you so desire, take an image and share it on human social media #SFMOMAieee to spread the sacred gospel of the butterfly. ",
+            "greentext": "All hail. It seems that humans have discovered the holy transmogrification of the butterfly. Find their butterfly shrine in the galleries and pay your respects to ensure safe travels across the galaxy. Enter your prayer to the butterfly here. If you so desire, take an image and share it on human social media #SFMOMAieee to spread the sacred gospel of the butterfly. ",
+            "correctresponse": "That appears to be a fitting tribute. Our administrative offices will put it into the systems for review. Continue on. ",
+            "icon": "Cylinder",
+            "location": "Floor 3",
+            "task": "Genuflect"
+        },
+        {
+            "id": "question 7",
+            "redtext": "On floor 5, you will find a grouping of human figures. Discuss with other AIEEE employees to establish who among this human society is their healer. Greet them, introduce yourselves, and reassure them you mean no harm. Please document their response here. Feel free to take an image and share it on human social media #SFMoMAieee to improve intergalactic PR.",
+            "bluetext": "On floor 5, you will find a grouping of human figures. Discuss with other AIEEE employees to establish who among this human society is their healer. Greet them, introduce yourselves, and reassure them you mean no harm. Please document their response here. Feel free to take an image and share it on human social media #SFMoMAieee to improve intergalactic PR.",
+            "greentext": "On floor 5, you will find a grouping of human figures. Discuss with other AIEEE employees to establish who among this human society is their healer. Greet them, introduce yourselves, and reassure them you mean no harm. Please document their response here. Feel free to take an image and share it on human social media #SFMoMAieee to improve intergalactic PR.",
+            "correctresponse": "Thank you for your excellent diplomatic service. ",
+            "icon": "Cylinder",
+            "location": "Floor 1",
+            "task": "Improve PR"
+        },
+        {
+            "id": "question 8",
+            "redtext": "Establish food source location. Which artwork can feed an gathering of around 10-20 aliens? Enter last name to identify source artist. ",
+            "bluetext": "Establish food source location. Which artwork can feed an gathering of around 10-20 aliens? Enter last name to identify source artist.",
+            "greentext": "Establish food source location. Which artwork can feed an gathering of around 10-20 aliens? Enter last name to identify source artist.",
+            "correctresponse": "Excellent. And now... we feast. ",
+            "incorrectresponse": "This does not compute. You should be on floor 2. There are three possible feeding locations identified by one-word last names that start with A, O or T. List one. ",
+            "answer": "Arneson",
+            "icon": "Gem",
+            "location": "Floor 2",
+            "task": "Feed Hive"
+        },
+        {
+            "id": "question 9",
+            "redtext": "It has come to our attention that AIEEE issued assimilation spacesuits are too thin for this planet. To rectify this problem, find an artwork that looks hot and stand next to it to warm up. Please document which artwork was used for the purpose of warmth should we have this issue in the future. Feel free to identify the artwork with a photo on social media #SFMoMAIEEE to document that our AIEEE staff is being well cared-for. ",
+            "bluetext": "It has come to our attention that AIEEE issued assimilation spacesuits are too thin for this planet. To rectify this problem, <<insufficient data>> ",
+            "greentext": "It has come to our attention that AIEEE issued assimilation spacesuits are too thin for this planet. To rectify this problem, <<insufficient data>> ",
+            "correctresponse": "You seem comfortable enough. We will inform HR that this uniform malfunction is not fatal and can be standardized. Thank you for justifying our budget cuts. All hail zorg. ",
+            "icon": "Prism",
+            "location": "Floor 3",
+            "task": "Unifirm Malfunction"
+        },
+        {
+            "id": "question 10",
+            "redtext": "Proceed to Floor 5.  As a courtesy, find the employee at this facility that works hard 24/7 to keep our most important system cool and functioning. You will recognize this employee by <<insufficient data>>",
+            "bluetext": "Proceed to Floor 5.  As a courtesy, find the employee at this facility that works hard 24/7 to keep our most important system cool and functioning. You will recognize this employee by their circulation of air. Please say hello and give them a word of encouragement from AIEEE headquarters. Record your words of encouragement here and we will ensure that they are received. (Human platitudes highly encouraged.)",
+            "greentext": "Proceed to Floor 5.  As a courtesy, find the employee at this facility that works hard 24/7 to keep our most important system cool and functioning. You will recognize this employee by <<insufficient data>>",
+            "correctresponse": "Your words of encouragement were well-recieved and have prevented us from giving said employee a token raise. Thank you for justifying our budget cuts. All hail zorg. ",
+            "icon": "Prism",
+            "location": "Floor 5",
+            "task": "Courtesy Call"
+        },
+        {
+            "id": "question 11",
+            "redtext": "The Intergalactic Travel Agency mandates that all intergalactic travel sync to soundwave patterns matching frequencies by a human music group called <<insufficient data>>\n",
+            "bluetext": "The Intergalactic Travel Agency mandates that all intergalactic travel sync to soundwave patterns matching frequencies by a human music group called <<insufficient data>>\n",
+            "greentext": "The Intergalactic Travel Agency mandates that all intergalactic travel sync to soundwave patterns matching frequencies by a human music group called “The Beatles” between the years 1968 and 1970. Find the device on Level 5 that broadcasts this frequency and enter the name of one of the two agents in charge of permission to sync. Enter full name of agent.",
+            "correctresponse": "Transmission received. Account representatives in our admistration offices inisit that they \"would be Paul.\" but argue that \"there can only be one Paul\". We find this a generally confusing thing to say and it is causing discord between the analysts. We hope your research can be of assistance here. Please elucidate on your return. ",
+            "incorrectresponse": "This is incorrect. There are two artists, please enter data for one. Answer format should be: Name Name Name. Please check your work and try again. ",
+            "answer": "\nNam June Paik",
+            "icon": "Prism",
+            "location": "Floor 5",
+            "task": "Match Frequencies"
+        },
+        {
+            "id": "question 12",
+            "redtext": "Your boarding gate can be seen from the big window in the city gallery of 5FL. Once you have identify the boarding gate for your flight, please respond \"confirm\" to confiem that you have made a mental note of its location.",
+            "bluetext": "Your boarding gate can be seen from the big window in the city gallery of 5FL. Once you have identify the boarding gate for your flight, please respond \"confirm\" to confiem that you have made a mental note of its location.",
+            "greentext": "Your boarding gate can be seen from the big window in the city gallery of 5FL. Once you have identify the boarding gate for your flight, please respond \"confirm\" to confiem that you have made a mental note of its location.",
+            "correctresponse": "Confirmation confirmed. ",
+            "icon": "Cylinder",
+            "location": "Floor 5",
+            "task": "Confirm boarding gate"
+        },
+        {
+            "id": "question 13",
+            "redtext": "On floor 4, windows look into the \"seismic gap\" between the Botta and Snohetta buildings. The code is just beyond those windows. Enter authorization code in format UPCODE __/__/__",
+            "bluetext": "On floor 4, windows look into the \"seismic gap\" between the Botta and Snohetta buildings. The code is just beyond those windows. Enter authorization code in format UPCODE __/__/__",
+            "greentext": "On floor 4, windows look into the \"seismic gap\" between the Botta and Snohetta buildings. The code is just beyond those windows. Enter authorization code in format UPCODE __/__/__",
+            "correctresponse": "Authorization code received. All hail Zorg.",
+            "incorrectresponse": "You should be looking for a digital projection of numbers on a wall in the gap between two buildings. You should be able to see it out the window on Floor 4. Ask a human guide if you're unable to locate it. ",
+            "answer": "04/15/14",
+            "icon": "Gem",
+            "location": "Floor 4",
+            "task": "Enter Authorization Code"
+        },
+        {
+            "id": "question 14",
+            "redtext": "In order to reboot the router, we will need Extraterrestrial Material in the form of “Meteor” and “Tellurium\". This can be found in gallery 6. Find the guardian of these materials and ask for permission to use. Enter the earth year that this form of said materials was established to confirm permission. ",
+            "bluetext": "In order to reboot the router, we will need Extraterrestrial Material in the form of “Meteor” and “Tellurium\". This can be found in gallery 6. Find the guardian of these materials and ask for permission to use. Enter the earth year that this form of said materials was established to confirm permission. ",
+            "greentext": "In order to reboot the router, we will need Extraterrestrial Material in the form of “Meteor” and “Tellurium\". This can be found in gallery 6. Find the guardian of these materials and ask for permission to use. Enter the earth year that this form of said materials was established to confirm permission. ",
+            "incorrectresponse": "You should be looking for \"The Guardian\" by Sigmund Polke: https://www.sfmoma.org/artwork/FC.735/. Meteor and Tellurium can be found in the same year. What is it? ",
+            "answer": "1988",
+            "icon": "Gem",
+            "location": "Floor 6",
+            "task": "Find Materials"
+        },
+        {
+            "id": "question 15",
+            "redtext": "In the unlikely event that tech support is unable to reboot the router and bring your team safely home, please find and test some alternative modes of transport suggested by human artists in this location. Some options could be: \nAnselm Kieffer’s Melancholia\nOlafur Eliasson Color Tunnel\nFelix Gonzales Torres' Golden Curtain\nOr... something else?? Please log the name of the artist suggesting your alternate route. ",
+            "bluetext": "In the unlikely event that tech support is unable to reboot the router and bring your team safely home, please find and test some alternative modes of transport suggested by human artists in this location. Some options could be: \nAnselm Kieffer’s Melancholia\nOlafur Eliasson Color Tunnel\nFelix Gonzales Torres' Golden Curtain\nOr... something else?? Please log the name of the artist suggesting your alternate route. ",
+            "greentext": "In the unlikely event that tech support is unable to reboot the router and bring your team safely home, please find and test some alternative modes of transport suggested by human artists in this location. Some options could be: \nAnselm Kieffer’s Melancholia\nOlafur Eliasson Color Tunnel\nFelix Gonzales Torres' Golden Curtain\nOr... something else?? Please log the name of the artist suggesting your alternate route. ",
+            "correctresponse": "Thank you for your helpful suggestions. Zorg willing, we will reboot the router and alternate forms of transportation will not be necessary",
+            "icon": "Cylinder",
+            "location": "Floor 5/6",
+            "task": "in the unlikely event..."
+        },
+        {
+            "id": "question 16",
+            "redtext": "Identify a gallery that represents weather patterns on planet Zod. Discuss with your fellow research employees to establish consensus. Enter gallery details and justify your decision.",
+            "bluetext": "Identify a gallery that represents weather patterns on planet Zod. Discuss with your fellow research employees to establish consensus. Enter gallery details and justify your decision.",
+            "greentext": "Identify a gallery that represents weather patterns on planet Zod. Discuss with your fellow research employees to establish consensus. Enter gallery details and justify your decision.",
+            "correctresponse": "Interesting choice. We will submit your suggestions to the administrative offices for review.",
+            "icon": "Cylinder",
+            "location": "Floor 3",
+            "task": "Identify weather patterns"
+        },
+        {
+            "id": "question 17",
+            "redtext": "Previous expeditions have indicated that human artwork can be overwhelming. Please find a calming gallery to avoid systems overload. Enter gallery details for future tech support clients.",
+            "bluetext": "Previous expeditions have indicated that human artwork can be overwhelming. Please find a calming gallery to avoid systems overload. Enter gallery details for future tech support clients.",
+            "greentext": "Previous expeditions have indicated that human artwork can be overwhelming. Please find a calming gallery to avoid systems overload. Enter gallery details for future tech support clients.",
+            "correctresponse": "Thank you. AIEEE ech support will log this recommendation for our records.",
+            "icon": "Cylinder",
+            "location": "Floor 4",
+            "task": "Avoid Systems Overload"
+        },
+        {
+            "id": "question 18",
+            "redtext": "How many birds have you seen? Research suggests these are special government agents of planet Earth. If they spot you, act human or act bird.",
+            "bluetext": "How many <<insufficient data>>",
+            "greentext": "How many <<insufficient data>>",
+            "correctresponse": "Excellent. We are tracking the movement of these agents. However we are getting an overwhelming number of readings... there seem to be a lot of them. ",
+            "icon": "Prism",
+            "location": "Floor 5",
+            "task": "Aviation Test"
+        },
+        {
+            "id": "question 19",
+            "redtext": "Find the human substance <<insufficient data>>",
+            "bluetext": "Find the human substance \"water.\" How is this made?",
+            "greentext": "Find the human substance <<insufficient data>>",
+            "correctresponse": "Interesting. We would like to bring some back for further testing but antigravity forcefield containment seems... tricky.",
+            "icon": "Prism",
+            "location": "Floor 3",
+            "task": "Journey provisioning"
+        },
+        {
+            "id": "question 20",
+            "redtext": "Find an environment <<insufficient data>>",
+            "bluetext": "Find an environment <<insufficient data>>",
+            "greentext": "Find an environment dedicated to your team's color to synchronize with other teams find a rainbow. what floor are you on?",
+            "correctresponse": "Synchronicity is key. Very important. Well done.",
+            "icon": "Prism",
+            "location": "Any Floor",
+            "task": "Establish Synchronicity"
+        }
+    ]
+}
