@@ -321,7 +321,10 @@ export default {
                 let thisQuestion = allText.questions[questionIndex];
 
                 popupTitle.innerHTML = thisQuestion.task + " SUCCESSFUL";
-                popupText.innerHTML = thisQuestion.correctresponse;
+                let text = thisQuestion.correctresponse;
+                text = text.replace(/</g, "&lt;");
+                text = text.replace(/>/g, "&gt;");
+                popupText.innerHTML = text;
                 
             }
             else if(status === "incorrect"){
@@ -331,7 +334,10 @@ export default {
                 let thisQuestion = allText.questions[questionIndex];
 
                 popupTitle.innerHTML = thisQuestion.task + " UNSUCCESSFUL";
-                popupText.innerHTML = thisQuestion.incorrectresponse;
+                let text = thisQuestion.incorrectresponse;
+                text = text.replace(/</g, "&lt;");
+                text = text.replace(/>/g, "&gt;");
+                popupText.innerHTML = text;
             }
             store.commit("setQuestionState", {questionState: "none"});
         }

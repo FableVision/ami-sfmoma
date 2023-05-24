@@ -49,7 +49,10 @@
                 for (let index = 0; index < allText.oneoffs.length; index++) {
                     const element = allText.oneoffs[index];
                     if(element.id === id){
-                        return element.text;
+                        let string = element.text;
+                        string = string.replace(/</g, "&lt;");
+                        string = string.replace(/>/g, "&gt;");
+                        return string;
                     }
                 }
                 return "NO TEXT FOUND";

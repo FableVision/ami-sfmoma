@@ -9,12 +9,6 @@
     <div class = "bg stack-parent" style="padding-top: 100px; pointer-events: none;">
         <div id="question-text" class ="paragraph item">
             Here goes the text
-            sdfg
-            sdfg
-            sdfg
-            sdfgdsfgjhsdlfjghljksdfg
-            sdfgjhksdfglkjshdfglkjsdhfglkjshdfkgl
-            sdfkghjlsdfkgjhslkjdfghslkjfdhgkjdl
         </div>
         <div id="attempts-text" class = "paragraph light-blue" style="font-size:20pt; padding-top: 10px;">
             Enter coordinates (0/3) attempts
@@ -93,15 +87,20 @@
                 const questionText = document.getElementById("question-text");
 
                 let thisQuestion = allText.questions[questionIndex];
+                let text = "";
                 if(store.state.teamName.toLowerCase() === "red"){
-                    questionText.innerHTML = thisQuestion.redtext;
+                    text = thisQuestion.redtext;
+                    
                 }
                 if(store.state.teamName.toLowerCase() === "blue"){
-                    questionText.innerHTML = thisQuestion.bluetext;
+                    text = thisQuestion.bluetext;
                 }
                 if(store.state.teamName.toLowerCase() === "green"){
-                    questionText.innerHTML = thisQuestion.greentext;
+                    text = thisQuestion.greentext;
                 }
+                text = text.replace(/</g, "&lt;");
+                text = text.replace(/>/g, "&gt;");
+                questionText.innerHTML = text;
 
                 const firstText = document.getElementById("span1");
                 const secondText = document.getElementById("span2");
