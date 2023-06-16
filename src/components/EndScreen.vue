@@ -12,9 +12,9 @@
         <div id="intro-text" class = "paragraph item">
             Welcome to AIEEEEE intercompany Tech Support and HR
         </div>
-        <a href="https://www.google.com/" id="link" class="paragraph" style="color:aquamarine; text-decoration:underline;">
+        <!-- <a href="https://www.google.com/" id="link" class="paragraph" style="color:aquamarine; text-decoration:underline;">
             Complete this google form
-        </a>
+        </a> -->
         <div class = "text-button item" @click="onClick">
             Replay Game
         </div>

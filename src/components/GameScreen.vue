@@ -21,7 +21,7 @@
         </div>
         <div>
             <p class = "game-heading">
-                <span class="white">Meet at </span><span class="light-blue">Station 5</span><span class="white"> to exchange information with others</span>
+                <span class="white">In case of insufficient data find another team or return to </span><span class="light-blue">the void</span><span class="white"> for information exchange.</span>
             </p>
         </div>
         <div id="page1" class = "eight-image-parent">
@@ -280,7 +280,6 @@ export default {
         }
 
         function setClock(optionIndex){
-            console.log("set timer");
             const timerText = document.getElementById("timer");
             if(timerText == null){
                 stopTimer();
